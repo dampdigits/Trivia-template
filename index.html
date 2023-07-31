@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the best time complexity and the worst time complexity of merge sort?</h3>
+                <button id="wrong1">O(log n) and O(n²)</button>
+                <button id="wrong2">O(n) and O(n * log n)</button>
+                <button id="correct">O(n * log n) and O(n * log n)</button>
+                <button id="wrong3">O(n) and O(n²)</button>
+                <button id="wrong4">O(log n) and O(log n)</button>
+                <p id="mcqResponse"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Which was the first company to release a smartphone?</h3>
+                <input id="answerField" type="text" placeholder="answer">
+                <button id="checkButton">Check Answer</button>
+                <p id="freeResponse"></p>
+            </div>
+        </div>
+        <script src="check.js" ></script>
+    </body>
+</html>
