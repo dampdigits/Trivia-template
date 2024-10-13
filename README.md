@@ -1,2 +1,2 @@
 # Trivia-template
-A template for a trivia / quiz webpage.
+A template for trivia and quizes.
